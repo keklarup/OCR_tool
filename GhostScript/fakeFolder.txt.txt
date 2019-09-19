@@ -1,0 +1,3 @@
+placeholder text document. 
+
+In the notebooks in the repository, Ghostscript was installed into this folder. To call the GhostScript command line tool, the relative filepath in the notebook assumes Ghostscript was installed in this folder.

@@ -1,0 +1,3 @@
+placeholder text document. 
+
+In the notebooks in the repository, Tesseract was installed into this folder. To call the Tesseract command line tool, the relative filepath in the notebook assumes Tesseract was installed in this folder.
