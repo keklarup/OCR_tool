@@ -3,12 +3,12 @@ Notebooks demoing extracting text from PDFs using GhostScript and Tesseract. A f
 
 ### Pipelines:
 
-#### Full page OCR:
+#### Full page OCR (PDF2TXT_PageOCR.ipynb):
 1. Given pdf, convert into images with ghostscript
 2. Given an image, extract text using Tesseract.
 3. (Optional) Identify desired data from extracted text using bookend instruction language.
 
-#### Cell based OCR:
+#### Cell based OCR (PDF2TXT_CellOCR.ipynb):
 1. Given pdf, convert into images with ghostscript
 2. Given an image, identify long horizontal and vertical lines.
 3. Split image into many subimages (cells) based on the found horizontal and vertical lines.
